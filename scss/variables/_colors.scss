@@ -1,4 +1,23 @@
+// @use 'scss:map'
+
 $white: #fff;
 $black: #000;
 
 // add the $colors map here (2 dimensional map)
+$colors: (
+  'brand': (
+    '400': #b692f6,
+  ),
+  'warning': (
+    '600': #dc6803,
+  ),
+  'error': (
+    '500': #f04438,
+  ),
+  'success': (
+    '700': #067647,
+  ),
+  'gray': (
+    '600': #475467,
+  ),
+);
